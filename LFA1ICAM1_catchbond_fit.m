@@ -12,7 +12,7 @@ clc
 %
 % Inputs:
 %
-% Two-pathway model: k_off(F) = k_c0*exp(-F/F_c) + k_s0*exp(-F/F_s)
+% Two-pathway model: k_off(F) = k_c0*exp(-F/F_c) + k_s0*exp(F/F_s)
 %
 % Single molecule 2D micripipette LFA-1-ICAM-1 data from V. Luca et al Fig. 1A, Ca2+/Mg2+/CXCL12;
 % 
