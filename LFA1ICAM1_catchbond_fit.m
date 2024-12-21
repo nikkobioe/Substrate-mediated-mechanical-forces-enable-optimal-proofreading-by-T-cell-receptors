@@ -19,9 +19,6 @@ clc
 % f_LFA-1-ICAM-1 = [0, 4, 7.5, 12.5, 18, 24] pN
 % tau_LFA-1-ICAM-1 = 1/k_off(F) = [0.4, 0.75, 1.125, 1.5, 0.6, 0.25] s
 %
-% f_TCR-n-pMHC = [0, 4, 7.5, 12.5, 18, 24] pN
-% tau_TCR-n-pMHC = 1/k_off(F) = [0.4, 0.75, 1.125, 1.5, 0.6, 0.25] s
-% f_TCR-c-pMHC = []
 % f_BOND is the applied load (pN)
 % tau_BOND is the dwell time in the bound state (s) w.r.t. f_BOND
 % Outputs:
