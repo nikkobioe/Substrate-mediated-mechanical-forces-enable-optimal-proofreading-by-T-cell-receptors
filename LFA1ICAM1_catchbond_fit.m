@@ -8,7 +8,7 @@ clc
 %                   W.E. Thomas et al, Annual Review Biophysics, 2008;
 %                   V. Luca et al, Science 2017;
 %                   J. Brockman et al, Frontiers in Physics 2019
-%                   W. Chen 4t al, Journal of Biological Chemistry 2010;
+%                   W. Chen et al, Journal of Biological Chemistry 2010;
 %
 % Inputs:
 %
