@@ -1,0 +1,30 @@
+function F = TCRcatchv2(sigma_apc, F_ic, F_Tc, k_0ci, F_0ci, k_0si, F_0si, k_0cTc, F_0cTc, k_0sTc, F_0sTc, k_onT, k_oni, i_0, v_0, ...
+    sigma_a, p_c, T_0, gamma, k_T, k_i, l_0i, l_0T, R, a_c, h_0)
+    
+    % Calculate LFA-1 adhesion kinetics and dissociation constants
+    k_offic = k_0ci * exp(-F_ic / F_0ci) + k_0si * exp(F_ic / F_0si);
+    k_offTc = k_0cTc * exp(-F_Tc / F_0cTc) + k_0sTc * exp(F_Tc / F_0sTc);
+    K_dc = k_offTc / k_onT;
+    K_dic = k_offic / k_oni;
+    ic = i_0 / (1 + K_dic);
+    v_a = v_0 * (1 - ic * F_ic / sigma_a);
+    yc = v_a / k_offic;
+
+    % TCR-ligand bond density
+    PI_c = 0.5 * (p_c + T_0 + K_dc) - 0.5 * sqrt((p_c + T_0 + K_dc)^2 - 4 * p_c * T_0);
+
+    % Solve for T-cell membrane displacement
+    k_m = gamma / R^2;
+    F_mc = PI_c * F_Tc;
+    dh = F_mc / k_m;
+
+    % Solve for APC membrane displacement
+    u = (a_c / sigma_apc) * (PI_c * F_Tc + ic * F_ic);
+
+    % Calculate LFA-1 and TCR forces
+    F1 = k_i * (h_0 + yc - l_0i - u) - F_ic; % LFA-1 forces
+    F2 = k_T * (h_0 - dh - l_0T - u) - F_Tc; % TCR forces
+
+    % Return the function result
+    F = [F1; F2];
+end
