@@ -14,9 +14,9 @@ function F = TCRcatchv2(sigma_apc, F_ic, F_Tc, k_0ci, F_0ci, k_0si, F_0si, k_0cT
     PI_c = 0.5 * (p_c + T_0 + K_dc) - 0.5 * sqrt((p_c + T_0 + K_dc)^2 - 4 * p_c * T_0);
 
     % Solve for T-cell membrane displacement
-    k_m = gamma / R^2;
-    F_mc = PI_c * F_Tc;
-    dh = F_mc / k_m;
+    k_m = gamma / R^2; % T-cell membrane force density (pN/nm^3)
+    F_mc = PI_n * F_Tn; % membrane generated stresses (pN/nm^2)
+    dh = F_mc / k_m; % membrane displacement (nm)
 
     % Solve for APC membrane displacement
     u = (a_c / sigma_apc) * (PI_c * F_Tc + ic * F_ic);
