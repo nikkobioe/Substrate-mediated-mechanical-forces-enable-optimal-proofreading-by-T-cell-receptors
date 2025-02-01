@@ -1,7 +1,7 @@
 # Determinants-of-TCR-signal-amplification-in-a-mechanokinetic-proofreading-framework
 Determinants of TCR signal amplification in a mechanokinetic proofreading framework incorporating LFA-1 molecular clutch dynamics
 
-Nicholas Jeffreys*, Suraj Shankar*, Joshua M. Brockman, Bryan Nerger, Wei-Hung Jung, L. Mahadevan**, David J. Mooney**
+Nicholas Jeffreys*, Suraj Shankar*, Joshua M. Brockman, Bryan Nerger, Wei-Hung Jung, Daniel Hidalgo-Aguilar, Peter W. Zandstra, L. Mahadevan**, David J. Mooney**
 
 *These authors contributed equally to this work. Inquiries regarding manuscript contents and MATLAB script can be directed to Nikko and Suraj (nikko.jeffreys@ubc.ca and surajsh@umich.edu)
 **Correspondence can be directed to lmahadev@g.harvard.edu and mooneyd@seas.harvard.edu.
