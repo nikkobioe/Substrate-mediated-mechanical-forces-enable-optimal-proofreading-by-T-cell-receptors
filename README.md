@@ -13,3 +13,4 @@ Github contents:
 1) Example least-squares fitting analysis of LFA-1-ICAM-1 catch bond determined apriori from published experimental datasets.
 2) Proofreading MATLAB function callers script (including data visualization) in steady-state analysis of TCR-c-pMHC catch bond or TCR-n-pMHC slip bond proofreading in concert with LFA-1 molecular clutch dynamics.
 3) MATLAB functions for TCR-c-pMHC and TCR-n-pMHC scenarios.
+4) MATLAB script for standard state change in Gibbs Free energy calculations for TCR-pMHC catch/slip bonds
