@@ -3,7 +3,7 @@
 
 % General parameters
 T_0 = 0.002; % TCR membrane density (nm^-2)
-k_onT = 0.002./T_0; % normalized TCR on rate
+k_onT = 0.01./T_0; % normalized TCR on rate
 F = linspace(0,100,1000); % transition state displacement force 0 pN - 100 pN
 kT = 4.114; % Thermal energy = 4.114 pN*nm
 
