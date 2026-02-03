@@ -1,5 +1,5 @@
 # Substrate mediated mechanical forces enable optimal kinetic proofreading by T-cell receptors 
-Determinants of TCR signal amplification in a mechanokinetic proofreading framework incorporating LFA-1 molecular clutch dynamics
+Substrate mediated mechanical forces enable optimal kinetic proofreading by T-cell receptors 
 
 Nicholas Jeffreys*, Suraj Shankar*, Joshua M. Brockman, Bryan A. Nerger, Wei-Hung Jung, L. Mahadevan**, David J. Mooney**
 
