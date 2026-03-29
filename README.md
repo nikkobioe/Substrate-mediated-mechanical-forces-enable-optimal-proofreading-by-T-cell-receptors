@@ -1,10 +1,10 @@
 # Substrate mediated mechanical forces enable optimal kinetic proofreading by T-cell receptors 
 Substrate mediated mechanical forces enable optimal kinetic proofreading by T-cell receptors 
 
-Nicholas Jeffreys*, Suraj Shankar*, Joshua M. Brockman, Bryan A. Nerger, Wei-Hung Jung, L. Mahadevan**, David J. Mooney**
+Nicholas Jeffreys*, Joshua M. Brockman, Tiam Heydari, Bryan A. Nerger, Wei-Hung Jung, Peter W. Zandstra, L. Mahadevan**, David J. Mooney**, Suraj Shankar*
 
 *These authors contributed equally to this work. Inquiries regarding manuscript contents and MATLAB script can be directed to Nikko and Suraj (nikko.jeffreys@ubc.ca and surajsh@umich.edu)
-**Correspondence can be directed to lmahadev@g.harvard.edu and mooneyd@seas.harvard.edu.
+**Correspondence can be directed to lmahadev@g.harvard.edu, mooneyd@seas.harvard.edu, and surajsh@umich.edu.
 
 If you find this work insightful or use the MATLAB script appended to github, please cite the article!
 
