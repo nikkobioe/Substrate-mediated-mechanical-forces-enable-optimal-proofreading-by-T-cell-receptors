@@ -1,5 +1,4 @@
-%% Determinants of T cell receptor signal amplification in a mechanokinetic proofreading 
-%% framework incorporating LFA-1 molecular clutch dynamics
+%% Substrate mediated mechanical forces enable optimal kinetic proofreading by T-cell receptors
 
 %% Jeffreys & Shankar et al.
 %% TCR and LFA-1 forces steady-state analysis - solve roots
