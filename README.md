@@ -1,5 +1,5 @@
 # Substrate mediated mechanical forces enable optimal proofreading by T-cell receptors 
-Substrate mediated mechanical forces enable optimal kinetic proofreading by T-cell receptors 
+Substrate mediated mechanical forces enable optimal proofreading by T-cell receptors 
 
 Nicholas Jeffreys*, Joshua M. Brockman, Tiam Heydari, Bryan A. Nerger, Wei-Hung Jung, Peter W. Zandstra, L. Mahadevan**, David J. Mooney**, Suraj Shankar*
 
