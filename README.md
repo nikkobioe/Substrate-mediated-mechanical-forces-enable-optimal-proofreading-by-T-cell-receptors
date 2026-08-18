@@ -14,3 +14,5 @@ Github contents:
 2) Proofreading MATLAB function callers script (including data visualization) in steady-state analysis of TCR-c-pMHC catch bond or TCR-n-pMHC slip bond proofreading in concert with LFA-1 molecular clutch dynamics.
 3) MATLAB functions for TCR-c-pMHC and TCR-n-pMHC scenarios.
 4) MATLAB script for standard state change in Gibbs Free energy calculations for TCR-pMHC catch/slip bonds
+5) MATLAB script for phase diagram of precision versus membrane tension and substrate stiffness
+6) MATLAB script for sensitivity analysis
